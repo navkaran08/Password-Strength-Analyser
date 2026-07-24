@@ -23,10 +23,11 @@ An advanced Python-based Password Strength Analyzer with a modern GUI built usin
 ## 🚀 Installation
 
 ```bash
-git clone https://github.com/yourusername/password-strength-analyzer.git
-cd password-strength-analyzer
-pip install -r requirements.txt
-python password_checker.py
+git clone https://github.com/navkaran08/Password-Strength-Analyser.git
+cd Password-Strength-Analyser
+chmod +x file-v6f.py
+ls
+python file-v6f.py
 ```
 
 ## 📷 Preview
