@@ -25,9 +25,9 @@ An advanced Python-based Password Strength Analyzer with a modern GUI built usin
 ```bash
 git clone https://github.com/navkaran08/Password-Strength-Analyser.git
 cd Password-Strength-Analyser
-chmod +x file-v6f.py
+chmod +x password_analyzer_pro.py
 ls
-python file-v6f.py
+python password_analyzer_pro.py
 ```
 
 ## 📷 Preview
