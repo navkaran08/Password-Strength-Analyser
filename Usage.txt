@@ -1,41 +1,19 @@
-# 1. SETUP VIRTUAL ENVIRONMENT
-python -m venv password_env
-source password_env/bin/activate  # Linux/Mac
-password_env\Scripts\activate     # Windows
+Usage
 
-# 2. INSTALL DEPENDENCIES
-pip install tk
+Windows
 
-# 3. RUN THE APPLICATION
-python password_checker.py
+1. Install Python 3.10+.
+2. Install the required package:
+   pip install requests
+3. Run the application:
+   python "Password Strength Analyser.py"
 
-# 4. PROFESSIONAL BUILD (EXE)
-pip install pyinstaller
-pyinstaller --onefile --windowed --name="PasswordStrengthPro" --icon=NONE password_checker.py
+Linux
 
-# 5. ADVANCED OPTIMIZED BUILD
-pyinstaller --onefile --windowed --strip --clean --optimize=2 --name="PasswordAnalyzerPro" password_checker.py
+1. Install Python 3 and pip.
+2. Install the required package:
+   pip3 install requests
+3. Run the application:
+   python3 "Password Strength Analyser.py"
 
-# 6. CODE FORMATTING & LINTING
-pip install black pylint flake8 autopep8
-black password_checker.py
-autopep8 --in-place --aggressive password_checker.py
-pylint password_checker.py
-flake8 password_checker.py
-
-# 7. SECURITY AUDIT
-pip install bandit safety
-bandit -r password_checker.py
-safety check
-
-# 8. PERFORMANCE ANALYSIS
-pip install line_profiler memory_profiler
-kernprof -l -v password_checker.py
-
-# 9. TYPE CHECKING
-pip install mypy
-mypy password_checker.py
-
-# 10. CREATE DISTRIBUTION
-pip install setuptools wheel
-python setup.py sdist bdist_wheel
+The application will launch a graphical interface where you can enter a password to analyze its strength, estimate crack time, detect common patterns, and check whether it has appeared in known data breaches.
