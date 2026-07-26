@@ -23,7 +23,7 @@ import time
 # ==================== CONFIGURATION ====================
 class Config:
     """Application configuration constants"""
-    WINDOW_WIDTH = 1200
+    WINDOW_WIDTH = 1100
     WINDOW_HEIGHT = 600
     BG_COLOR = "#0a0a0a"
     CARD_BG = "#141414"
