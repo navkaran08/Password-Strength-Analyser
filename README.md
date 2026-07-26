@@ -1,40 +1,80 @@
-# 🔐 Password Strength Analyzer
+# 🔐 Password Strength Analyzer Pro – Enhanced Edition
 
-An advanced Python-based Password Strength Analyzer with a modern GUI built using Tkinter. It evaluates password strength in real time by analyzing length, entropy, character diversity, common password usage, and predictable patterns while providing security recommendations.
+An advanced Cyber Security tool built with Python that analyzes password strength using entropy, pattern detection, breach checking, and intelligent security recommendations. Designed with a modern GUI, animations, password history, and real-time security analysis. 0
 
 ## ✨ Features
-- Real-time password strength analysis
-- Entropy and security score calculation
-- Estimated password crack time
-- Detection of common passwords and patterns
-- Character composition analysis
-- Password improvement recommendations
-- Modern animated Tkinter interface
+
+- 🔒 Advanced Password Strength Analysis
+- 📊 Strength Score (0–100)
+- 📈 Password Entropy Calculation
+- ⏳ Password Crack Time Estimation
+- 🌐 Have I Been Pwned (HIBP) Breach Detection
+- 🛡️ Detects 1000+ Common Weak Passwords
+- 🔍 Keyboard Pattern Detection
+- 🔢 Sequence & Repeated Character Detection
+- 📅 Date & Year Pattern Detection
+- 📧 Email Pattern Detection
+- 💾 SQLite Password History
+- 🎨 Modern Animated GUI (Tkinter)
+- ⚡ Real-Time Password Analysis
+- 💡 Intelligent Security Recommendations
+- 👁️ Password Visibility Toggle
+- 🖥️ Cross-Platform Support
 
 ## 🛠️ Technologies Used
-- Python 3
+
+- Python 3.x
 - Tkinter
-- Regex (re)
-- Math
-- Hashlib
+- SQLite3
 - Requests
 - Threading
+- Regular Expressions
+- SHA-1 Hashing
+- Have I Been Pwned API
 
-## 🚀 Installation
+## 📦 Installation
 
 ```bash
 git clone https://github.com/navkaran08/Password-Strength-Analyser.git
 cd Password-Strength-Analyser
-chmod +x password_analyzer_pro.py
-ls
-python password_analyzer_pro.py
+pip install requests
+python "Password Strength Analyser.py"
 ```
 
-## 📷 Preview
-**Modern desktop interface with real-time password security analysis.**
+## ▶️ Run (One-Line Command)
+
+```bash
+pip install requests && python "Password Strength Analyser.py"
+```
+
+## 📊 Security Checks
+
+- Password Strength Score
+- Shannon Entropy
+- Crack Time Estimation
+- Character Diversity Analysis
+- Common Password Detection
+- Pattern Recognition
+- Breach Detection (HIBP API)
+- Password History Logging
+
+## 📁 Project Structure
+
+```
+Password-Strength-Analyser/
+│── Password Strength Analyser.py
+│── password_history.db
+│── README.md
+```
 
 ## 👨‍💻 Author
-**Navkaran Singh (Ethical Hacker or Penetration Tester)**
 
-## 📄 License
-**This project is licensed under the MIT License.**
+**Navkaran Singh ( Ethical Hacker or Penetration Tester )**
+
+## 📜 License
+
+This project is licensed under the MIT License.
+
+## ⭐ Support
+
+If you found this project useful, don't forget to **Star ⭐ the repository** and contribute to improving password security.
