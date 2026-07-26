@@ -24,7 +24,7 @@ import time
 class Config:
     """Application configuration constants"""
     WINDOW_WIDTH = 1200
-    WINDOW_HEIGHT = 850
+    WINDOW_HEIGHT = 650
     BG_COLOR = "#0a0a0a"
     CARD_BG = "#141414"
     ACCENT_COLOR = "#00d4ff"
