@@ -27,7 +27,7 @@ An advanced Cyber Security password analysis tool built with Python and Tkinter.
 ## 📦 Installation or ▶️ Run
 
 ```bash
-git clone https://github.com/navkaran08/Password-Strength-Analyser-Pro.git && cd Password-Strength-Analyser && pip install requests && python "Password Strength Analyser.py"
+git clone https://github.com/navkaran08/Password-Strength-Analyser-Pro.git && cd Password-Strength-Analyser-Pro && pip install requests && python "Password Strength Analyser.py"
 ```
 
 ## 📷 Preview
